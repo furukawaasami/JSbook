@@ -18,7 +18,7 @@
 <main>
 <div class="container">
 <section>
-  <p id="choice">ここに日時を表示します。</p>
+
 </section>
 </div><!-- /.container -->
 </main>
@@ -29,17 +29,12 @@
 </footer>
 <script>
   'use strict';
-  // 特定のID名を持つ要素を取得する
-  // console.log(document.getElementById('choice'));
-  // 取得した要素のコンテンツを書き換える
-  // document.getElementById('choice').textContent = new Date();
-  // コンテンツを文字で書き換える例
-  // document.getElementById('choice').textContent = '好きな食べ物はなんですか？';
-  // 取得したコンテンツの要素だけ読み取ってコンソールに出力する
-  document.getElementById('choice').textContent = new Date();
-  console.log(document.getElementById('choice').textContent);
 
-
+  if(window.confirm('game start! Are you ready?')) {
+    console.log('game start~!');
+  } else {
+    console.log('out of game');
+  }
 </script>
 </body>
 </html>
