@@ -18,7 +18,8 @@
 <main>
 <div class="container">
 <section>
-
+  <h1>やることリスト</h1>
+  <ul id="list"></ul>
 </section>
 </div><!-- /.container -->
 </main>
@@ -34,11 +35,14 @@
   todo.push('ナナに挨拶する');
   // todo.pop();
   // todo.shift();
-  todo.unshift('換気扇を消す！', '休む')
-  console.log(todo[0]);
+  // todo.unshift('換気扇を消す！', '休む')
+  // console.log(todo[0]);
   for(let item of todo) {
     const li = `<li>${item}</li>`;
-    console.log(li);
+    // console.log(li);
+    // document.getElementById('list').insertAdjacentHTML('beforeend', li);
+    document.getElementById('list').insertAdjacentHTML('beforebegin', li);
+
   }
 </script>
 </body>
