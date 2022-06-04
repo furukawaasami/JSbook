@@ -40,7 +40,7 @@ header .container {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 76px;
-  background-image: url(../images/logo.svg);
+  background-image: url(../../_common/images/favicon.ico);
   background-repeat: no-repeat;
   background-size: 53px;
   background-position: 16px 10px;
@@ -144,12 +144,12 @@ img {
   margin-right: 0.5rem;
   width: 16px;
   height: 16px;
-  background: url(images/arrow-left.svg) no-repeat;
+  background: url(heart.png) no-repeat;
 }
 
 #next {
   margin-right: 0.5rem;
   width: 16px;
   height: 16px;
-  background: url(images/arrow-left.svg) no-repeat;
+  background: url(koinu.png) no-repeat;
 }
