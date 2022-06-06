@@ -121,7 +121,7 @@ a:hover {
   margin: 0 auto;
   border: 1px slid black;
   width: 720px;
-  background-color: black;
+  background-color: #000;
 }
 
 img {
@@ -144,12 +144,12 @@ img {
   margin-right: 0.5rem;
   width: 16px;
   height: 16px;
-  background: url(heart.png) no-repeat;
+  background: url(arrow-left.svg) no-repeat;
 }
 
 #next {
   margin-right: 0.5rem;
   width: 16px;
   height: 16px;
-  background: url(koinu.png) no-repeat;
+  background: url(arrow-right.svg) no-repeat;
 }
