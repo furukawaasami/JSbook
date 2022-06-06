@@ -153,3 +153,7 @@ img {
   height: 16px;
   background: url(arrow-right.svg) no-repeat;
 }
+
+#page {
+  color: azure;
+}
