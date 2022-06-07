@@ -42,6 +42,9 @@
   'use strict';
 
   const images = ['animal.png','heart.png', 'job.png','koinu.png','nezumi.png'];
+  images.forEach(function(item, index) {
+    preloadImage(item);
+  });
   let current = 0;
 
   function changeImage(num) {
@@ -52,6 +55,10 @@
     }
   };
 
+  function preloadImage(path) {
+    let imgTag = document.createElement('img');
+    imgTag.src = path;
+  }
   function pageNum() {
     document.getElementById('page').textContent = `${current + 1}/${images.length}`;
   }
