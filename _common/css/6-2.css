@@ -144,3 +144,8 @@ header .container {
   text-align: center;
   color: #fff;
 }
+
+#nav {
+  width: 270px;
+  height: 100%;
+}
