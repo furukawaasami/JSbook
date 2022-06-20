@@ -148,4 +148,7 @@ header .container {
 #nav {
   width: 270px;
   height: 100%;
+  position: fixed;
+  right: -270px;
+  top: 0;
 }
