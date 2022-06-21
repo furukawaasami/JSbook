@@ -9,7 +9,7 @@
 <link href="../../_common/css/6-2.css" rel="stylesheet">
 </head>
 <body>
-<div id="wrapper" class="show">
+<div id="wrapper">
   <header>
   <div class="container">
     <div class="title-block">
@@ -56,7 +56,7 @@
   </div><!-- /.container -->
   </footer>
 </div>
-<nav id="nav" class="show">
+<nav id="nav">
   <div class="logo"><img src="logo.svg" alt=""></div>
   <ul>
     <li><a href="#">Home</a></li>
@@ -65,5 +65,14 @@
     <li><a href="#">カフェ検索</a></li>
   </ul>
 </nav>
+<script src="../../_common/scripts/jquery-3.4.1..min.js"></script>
+<script>
+  'use strict';
+  $(document).ready(function(){
+    $('#open_nav').on('click', function(){
+      $('#wrapper, #nav').toggleClass('show');
+    });
+  });
+</script>
 </body>
 </html>
