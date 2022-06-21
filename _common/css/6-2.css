@@ -152,3 +152,7 @@ header .container {
   right: -270px;
   top: 0;
 }
+
+.show {
+  transform: translate3d(-270px, 0, 0);
+}
