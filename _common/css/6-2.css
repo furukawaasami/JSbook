@@ -156,3 +156,8 @@ header .container {
 .show {
   transform: translate3d(-270px, 0, 0);
 }
+
+#wrapper,
+#nav {
+  transition: transform 0.3s;
+}
